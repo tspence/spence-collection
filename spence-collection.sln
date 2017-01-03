@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{B51EC718-810D-4B81-99A3-8BE5052FCE63}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{A588F859-4C54-4A44-ACB7-8540275B3B6A}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "spence-collection", "src\spence-collection\spence-collection.xproj", "{BE81C422-0EEA-485C-861B-54E7FBA170AF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BE81C422-0EEA-485C-861B-54E7FBA170AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE81C422-0EEA-485C-861B-54E7FBA170AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE81C422-0EEA-485C-861B-54E7FBA170AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE81C422-0EEA-485C-861B-54E7FBA170AF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BE81C422-0EEA-485C-861B-54E7FBA170AF} = {B51EC718-810D-4B81-99A3-8BE5052FCE63}
+	EndGlobalSection
+EndGlobal
