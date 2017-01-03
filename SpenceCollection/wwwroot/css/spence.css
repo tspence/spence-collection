@@ -1,0 +1,81 @@
+/* Tripoli overrides */
+.content { font-size: 1.1em !important; }
+.content p + ul { margin-top: -0.8em; }
+.sticker .content h1 { font-size: 1.6em; margin: 0.4em 0 0.4em 0; }
+.sticker .content h2 { font-size: 1.4em ;}
+.sticker .content h3 { font-size: 1.2em ;}
+.sticker .content a, .sticker a { color: #4a3b82; text-decoration: underline; }
+.sticker .content form { margin: 0; padding: 0; }
+
+/* Basics */
+a { text-decoration: none; }
+li ul, li ol  { margin-bottom: 1em !important ; }
+h2 { font-weight: bold; font-size: 18px; }
+
+.center { text-align: center }
+.left { text-align: left }
+.right { text-align: right }
+.justify { text-align: justify }
+
+.floatLeft { float: left !important; }
+.floatRight { float: right !important; }
+.floatNone { float: none !important; }
+
+.clear { clear: both}
+.clearfix:after { content: "."; display: block; height: 0; clear: both; visibility: hidden }
+
+.relative { position: relative !important }
+.absolute { position: absolute }
+
+.inline { display: inline; }
+.cursor { cursor: pointer }
+
+li p.smallprint { margin-top: -0.25em; line-height: 1.4em; font-size: 0.9em; margin-bottom: 0.9em; font-style: italic; color: #444; }
+
+/* Page */
+#wrapper {margin: 0 auto; width: 982px; }
+html { background: #061323 url(../images/wallpaper3.jpg) no-repeat top center; background-attachment: fixed; }
+body { font-family: 'Alegreya', serif; font-size: 12pt; overflow-y: scroll; }
+
+/* Stickers */
+.sticker { 
+	background-color: white; padding: 1.25em 1.45em 1.25em 1.55em; margin: 0.5em 0 2em 0; -moz-border-radius: 1em; -webkit-border-radius: 1em; border-radius: 1em; 
+	opacity:0.9; -moz-box-shadow: 0 0 1.1em #666; -webkit-box-shadow: 0 0 1.1em #666; box-shadow: 0 0 1.1em #666;
+}
+.sticker .heading, .sticker h1 { color: #4a3b82; margin: 0.25em 0 0.25em 0; font-weight: bold; font-size: 1.2em; }
+.stickerHeading { 
+	background-color: #d6d6e5; height: 1.3em; margin: -2em -1.45em 1.25em -1.55em; padding: 0.7em 1em 1.1em 1.75em;
+	-moz-border-radius-topright: 1em; -moz-border-radius-topleft: 1em; 
+	-webkit-border-top-right-radius: 1em; -webkit-border-top-left-radius: 1em; 
+	border-top-right-radius: 1em; border-top-left-radius: 1em; 	
+}
+ul.stickerList li { margin: 0.5em 0 0.9em 0; }
+ul.stickerList li p.smallprint { margin-top: 0.1em; }
+
+/* Photos */
+.caption { font-size: 13px; }
+
+/* Spacers */
+.vspace { height: 1em;}
+
+/* Menu */
+.main-menu { display:table; float:right; margin: 0 0 0 0; font-size: 16px; font-weight: bold; }
+.main-menu ul li { display: inline; }
+.main-menu ul li a { display: inline-block; padding: 0.4em 1.5em; text-decoration: none; -moz-border-radius: 0.5em; -webkit-border-radius: 0.5em; border-radius: 0.5em; }
+.main-menu ul li a, .main-menu ul li a:visited { color: white; }
+.main-menu ul li a.active, .main-menu ul li a:hover { background-color: #001751; }
+
+/* Homepage */
+#site_id { float: left; padding: 0 1.4em 0 1em; font-size: 48px; color: #FFFFFF; text-shadow: rgba(253, 204, 197, 0.4) 2px 2px 0px; }
+#slogan { float: right; padding: 1.5em 1em 0 1.4em; font-size: 20px; color: #577fc2; text-shadow: rgba(253, 204, 197, 0.4) 1px 1px 0px; }
+
+/* Columns */
+.left_column { float: left; width: 480px; }
+.right_column { float: right; width: 480px; }
+
+/* Footer */
+#page-footer { padding: 15px; text-align: center; color: #ffffff; font-size: 16px; font-style: italic; }
+#page-footer a { color: #ffffff; }
+#page-footer a:active { color: #ffffff; }
+#page-footer a:visited { color: #ffffff; }
+#page-footer a:hover { color: #ffffff; text-decoration: underline; }
